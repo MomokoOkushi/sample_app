@@ -92,7 +92,6 @@ console.log(i)
 //関数　戻り値
 // メイン部分
 let alertString;
-
 // 作成した関数を呼び出し、変数へ格納
 alertString = addString("WebCamp");
 
