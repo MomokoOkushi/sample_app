@@ -83,8 +83,8 @@ function foo() {
 
 //ブロックスコープ（ローカルスコープ）の変数を宣言することができます。
 //ブロックとは() 、{}の組で区切られたものを指します。
-for (let i = 0; i < 10; i++) {     
-  console.log(i) 
+for (let i = 0; i < 10; i++) {
+  console.log(i)
 }
 
 console.log(i)
@@ -105,3 +105,7 @@ function addString(strA){
   return addStr;
 }
 
+//入力ダイアログで値を入力
+let promptStr = prompt('何か好きな文字を入力してください。');
+
+alert(promptStr);
