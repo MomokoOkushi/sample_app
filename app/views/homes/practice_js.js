@@ -107,5 +107,4 @@ function addString(strA){
 
 //入力ダイアログで値を入力
 let promptStr = prompt('何か好きな文字を入力してください。');
-
 alert(promptStr);
