@@ -50,3 +50,9 @@ n = 40
   seikai = wari + amari
   puts seikai
   end
+  
+a = gets.to_i
+b = gets.to_i
+nokori = 500-a-b
+
+puts nokori
