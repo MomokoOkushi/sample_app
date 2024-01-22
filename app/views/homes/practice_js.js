@@ -54,3 +54,19 @@ for(i = 1; i < 11; i++){
 
 alert('1から10まで足し算した結果は' + num1 + 'です');
 
+//変数宣言(変数宣言を再宣言してからconsole.logで呼び出すことで表示内容が変わる)
+//varでのみ再宣言可能
+var nickname = "taro"
+console.log (nickname)
+
+var nickname = "ichiro"
+console.log (nickname)
+
+//変数宣言２
+//再代入はvarとletでのみ可能
+var apple_name = "リンゴ"
+console.log(apple_name)
+
+apple_name = "fujiringo"
+console.log(apple_name)
+
