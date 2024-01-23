@@ -70,3 +70,14 @@ console.log(apple_name)
 apple_name = "fujiringo"
 console.log(apple_name)
 
+//スコープ
+//var　関数スコープ(ローカルスコープ)、グローバルスコープ
+var str = "webcamp"//グローバルスコープ。どこからでも呼び出し可能
+
+function foo() {
+  console.log(str)
+  var y = "hello"//関数スコープ
+  console.log(y) //関数の呼び出しは定義した{}内でのみ
+
+}
+
