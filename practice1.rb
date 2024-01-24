@@ -47,8 +47,8 @@
 #   gen39 = gen38 + (gen38*0.5).floor
 #   seikai = gen39 + (gen39*0.5).floor
 #   puts seikai
-
-sum = 0
+  
+  sum = 0
 
   for n in 1..512 do
   wari = 77777 / n
@@ -56,7 +56,7 @@ sum = 0
   seikai = wari + amari
   puts seikai
 
-   sum += seikai
+  sum += seikai
   end
   
   puts "総和: #{sum}"
