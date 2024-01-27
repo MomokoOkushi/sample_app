@@ -76,7 +76,7 @@ var str = "webcamp"//グローバルスコープ。どこからでも呼び出�
 
 function foo() {
   console.log(str)
-  var y = "hello"//関数スコープ
+  var y = "hello"//関数スコープ(ローカルスコープ)
   console.log(y) //関数の呼び出しは定義した{}内でのみ
 
 }
